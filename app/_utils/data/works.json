@@ -1,0 +1,145 @@
+{
+  "works": [
+    {
+      "title": "Bakery landing page",
+      "description": "A delightful, responsive bakery website showcasing artisanal bread and pastries. Built with clean HTML5 and modern CSS3, featuring an elegant design with smooth animations and a mouth-watering gallery of baked goods.",
+      "year": "2025",
+      "role": "Front-end Developer",
+      "tags": ["Challenge"],
+      "image": "/_assets/images/Bakery.png",
+      "linkDemo": "https://moaaz-i.github.io/Engage_Bakery",
+      "linkCode": "https://github.com/Moaaz-i/Engage_Bakery"
+    },
+    {
+      "title": "DevFolio landing page",
+      "description": "A sleek, professional portfolio template designed for developers and designers. This responsive landing page features a modern layout, clean typography, and smooth scrolling navigation, all crafted with semantic HTML5 and CSS3.",
+      "year": "2025",
+      "role": "Front-end Developer",
+      "tags": ["Challenge"],
+      "image": "/_assets/images/DevFolio.png",
+      "linkDemo": "https://moaaz-i.github.io/DevFolio",
+      "linkCode": "https://github.com/Moaaz-i/DevFolio"
+    },
+    {
+      "title": "Daniels landing page",
+      "description": "An elegant portfolio website with a minimalist design, focusing on typography and whitespace. Built as an exam project, it demonstrates strong layout skills and attention to detail using modern web standards.",
+      "year": "2025",
+      "role": "Front-end Developer",
+      "tags": ["Exam"],
+      "image": "/_assets/images/Daniels.png",
+      "linkDemo": "https://moaaz-i.github.io/Exam",
+      "linkCode": "https://github.com/Moaaz-i/Exam"
+    },
+    {
+      "title": "Fokir landing page",
+      "description": "A clean, modern portfolio template with smooth scrolling and interactive elements. Built with HTML5, CSS3, and JavaScript, featuring a responsive design that works seamlessly across all devices. The project showcases a perfect blend of creativity and functionality.",
+      "year": "2025",
+      "role": "Front-end Developer",
+      "tags": ["Challenge"],
+      "image": "/_assets/images/Fokir.png",
+      "linkDemo": "https://moaaz-i.github.io/Fokir",
+      "linkCode": "https://github.com/Moaaz-i/Fokir"
+    },
+    {
+      "title": "Login System",
+      "description": "A secure and responsive authentication system with clean UI/UX design. Features include user registration, login, password recovery, and form validation. Built with HTML5, CSS3, and vanilla JavaScript, ensuring fast performance and cross-browser compatibility. The system includes client-side validation and smooth error handling for a seamless user experience.",
+      "year": "2025",
+      "role": "Front-end Developer",
+      "tags": ["Challenge"],
+      "image": "/_assets/images/LoginSystem.jpeg",
+      "linkDemo": "https://moaaz-i.github.io/Login-System",
+      "linkCode": "https://github.com/Moaaz-i/Login-System"
+    },
+    {
+      "title": "Bookmark landing page",
+      "description": "A sleek, user-friendly bookmark manager interface with a clean design and intuitive navigation. Built with HTML5, CSS3, and vanilla JavaScript, this project features tabbed navigation, FAQ accordion, and a responsive layout that adapts to all screen sizes. Perfect for showcasing UI/UX design skills.",
+      "year": "2025",
+      "role": "Front-end Developer",
+      "tags": ["Challenge"],
+      "image": "/_assets/images/Bookmark.jpeg",
+      "linkDemo": "https://moaaz-i.github.io/Bookmark",
+      "linkCode": "https://github.com/Moaaz-i/Bookmark"
+    },
+    {
+      "title": "Crud System landing page",
+      "description": "A dynamic CRUD (Create, Read, Update, Delete) application with a clean, intuitive interface. Built with modern JavaScript, this system allows users to manage data entries efficiently. Features include form validation, real-time updates, and responsive design that works seamlessly across all devices.",
+      "year": "2025",
+      "role": "Front-end Developer",
+      "tags": ["Challenge"],
+      "image": "/_assets/images/CrudSystem.jpeg",
+      "linkDemo": "https://moaaz-i.github.io/crud_system",
+      "linkCode": "https://github.com/Moaaz-i/crud_system"
+    },
+
+    {
+      "title": "Mealify Landing Page",
+      "description": "A modern restaurant website with an elegant design and smooth animations. Features include an interactive menu with filtering options, online reservation system, and a mouth-watering food gallery. Built with HTML5, CSS3, and vanilla JavaScript, this fully responsive template ensures a perfect viewing experience across all devices.",
+      "year": "2025",
+      "role": "Front-end Developer",
+      "tags": ["Challenge"],
+      "image": "/_assets/images/Mealify.png",
+      "linkDemo": "https://moaaz-i.github.io/Mealify",
+      "linkCode": "https://github.com/Moaaz-i/Mealify"
+    },
+    {
+      "title": "Weather forecast page for three days or less",
+      "description": "A dynamic weather application that provides accurate 3-day forecasts with a clean, intuitive interface. Features real-time weather data, responsive design, and a beautiful UI that adapts to different weather conditions. Built with vanilla JavaScript, HTML5, and CSS3.",
+      "year": "2025",
+      "role": "Front-end Developer",
+      "tags": ["Challenge"],
+      "image": "/_assets/images/Weather.jpeg",
+      "linkDemo": "https://moaaz-i.github.io/Weather/",
+      "linkCode": "https://github.com/moaaz-i/Weather"
+    },
+    {
+      "title": "CSS Grid Masterclass",
+      "description": "An educational project showcasing the power of CSS Grid for creating complex, responsive layouts. Features multiple grid-based design patterns, from simple card layouts to advanced masonry and magazine-style designs. Includes interactive examples and code snippets to help developers master modern CSS layout techniques.",
+      "year": "2025",
+      "role": "Front-end Developer",
+      "tags": ["Challenge"],
+      "image": "/_assets/images/GridSystem.jpeg",
+      "linkDemo": "https://moaaz-i.github.io/Grid_masterclass/",
+      "linkCode": "https://github.com/moaaz-i/Grid_masterclass"
+    },
+    {
+      "title": "Inspirational Quote Generator",
+      "description": "A beautiful web application that generates random inspirational quotes with the click of a button. Features include the ability to share quotes on social media, copy to clipboard, and a clean, minimalist design. Built with vanilla JavaScript, this project demonstrates API integration and DOM manipulation skills while providing daily motivation to users.",
+      "year": "2025",
+      "role": "Front-end Developer",
+      "tags": ["Challenge"],
+      "image": "/_assets/images/Quote.jpeg",
+      "linkDemo": "https://moaaz-i.github.io/Random-Quote-Generator/",
+      "linkCode": "https://github.com/moaaz-i/Random-Quote-Generator"
+    },
+    {
+      "title": "Foodie's Paradise",
+      "description": "A vibrant food discovery platform that helps users find and explore delicious recipes. Features include recipe search by ingredients, category filtering, and detailed cooking instructions. The responsive design ensures a seamless experience across devices, with beautiful food photography and an intuitive user interface built with modern web technologies.",
+      "year": "2025",
+      "role": "Front-end Developer",
+      "tags": ["Challenge"],
+      "image": "/_assets/images/Foods.jpeg",
+      "linkDemo": "https://moaaz-i.github.io/sample-api/",
+      "linkCode": "https://github.com/moaaz-i/sample-api"
+    },
+    {
+      "title": "LinkedPost - Social Media Platform",
+      "description": "A full-stack social media application inspired by LinkedIn, built with Next.js and modern web technologies. Features include user profiles, post creation, likes, comments, and real-time updates. The platform offers a clean, professional interface with responsive design, ensuring optimal performance across all devices.",
+      "year": "2025",
+      "role": "Front-end Developer",
+      "tags": ["Challenge"],
+      "image": "/_assets/images/LinkedPost.png",
+      "linkDemo": "https://social-app-two-tau.vercel.app",
+      "linkCode": "https://github.com/Moaaz-i/LinkedPost"
+    },
+    {
+      "title": "Needful - E-commerce Platform",
+      "description": "A comprehensive e-commerce solution built with Next.js, featuring a modern, user-friendly interface. Key features include product catalog with filtering, shopping cart, secure checkout process, and order tracking. The platform is optimized for performance with server-side rendering, ensuring fast loading times and excellent SEO. Built with a mobile-first approach for seamless shopping across all devices.",
+      "year": "2025",
+      "role": "Front-end Developer",
+      "tags": ["Challenge"],
+      "image": "/_assets/images/Needful.png",
+      "linkDemo": "https://needfull.vercel.app/",
+      "linkCode": "https://github.com/Moaaz-i/needful"
+    }
+  ]
+}
