@@ -16,11 +16,10 @@ interface CardProps {
 
 const Card = (props: CardProps) => {
   const {
-    title = 'Promotional landing page for our favorite show',
-    description = 'Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.',
-    year = '2023',
+    title = 'Project Title',
+    year = '2025',
     role = 'Front-end Developer',
-    tags = ['Conceptual Work'],
+    tags = [],
     linkDemo,
     linkCode,
     image
@@ -52,7 +51,19 @@ const Card = (props: CardProps) => {
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
             {title}
           </h2>
-          <p className="text-gray-300 text-lg mb-8">{description}</p>
+
+          {tags && tags.length > 0 && (
+            <div className="flex flex-wrap gap-2 mb-6">
+              {tags.map((tag, index) => (
+                <span
+                  key={index}
+                  className="bg-blue-600/20 text-blue-400 text-sm font-medium px-3 py-1 rounded-full"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
 
           <div className="mb-8">
             <h3 className="text-white font-medium mb-4">PROJECT INFO</h3>

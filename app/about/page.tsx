@@ -98,13 +98,7 @@ export default function AboutPage() {
         'Expanded skillset to include React.js and Next.js for building modern web applications',
         'Mastered responsive design principles with Bootstrap and advanced CSS techniques',
         'Developed full-stack applications with a focus on clean, maintainable code',
-        'Continuously learning and implementing best practices in software development',
-        <div className="pdf-viewer-container mt-4">
-          <PdfViewer
-            file="/a3b9ca55-6c92-48e0-aba8-2fbc46a2e8ad.pdf"
-            width={600}
-          />
-        </div>
+        'Continuously learning and implementing best practices in software development'
       ]
     }
   ]
@@ -286,6 +280,12 @@ export default function AboutPage() {
                 </ul>
               </div>
             ))}
+            <div className="pdf-viewer-container mt-4">
+              <PdfViewer
+                file="/a3b9ca55-6c92-48e0-aba8-2fbc46a2e8ad.pdf"
+                width={600}
+              />
+            </div>
           </div>
         </div>
       </section>

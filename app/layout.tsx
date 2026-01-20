@@ -2,6 +2,7 @@ import type {Metadata} from 'next'
 import {Geist, Geist_Mono, Bebas_Neue} from 'next/font/google'
 import './globals.css'
 import Navbar from './_components/navbar/page'
+import {Providers} from './providers'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -35,10 +36,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${bebas_Neue.variable} antialiased bg-[#0A0A0A] text-[#C7C7C7] h-full overflow-hidden`}
         cz-shortcut-listen="true "
       >
-        <div className="flex flex-col h-full">
-          <Navbar />
-          <main className="flex-1 overflow-y-auto">{children}</main>
-        </div>
+        <Providers>
+          <div className="flex flex-col h-full">
+            <Navbar />
+            <main className="flex-1 overflow-y-auto">{children}</main>
+          </div>
+        </Providers>
       </body>
     </html>
   )

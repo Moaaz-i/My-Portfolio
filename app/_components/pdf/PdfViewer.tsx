@@ -131,25 +131,38 @@ export default function PdfViewer({
   }
 
   return (
-    <div className="w-full">
-      <iframe
-        src={`${pdfUrl}#view=FitH`}
-        width={width}
-        height={height}
-        className="border border-gray-200 rounded-lg"
-        title="PDF Viewer"
-      />
-      <div className="mt-2 text-center">
+    <div className="w-full max-w-4xl mx-auto">
+      <div className="relative group">
+        <div className="absolute inset-0 bg-linear-to-br from-green-500/10 to-transparent rounded-2xl -m-2 transform group-hover:scale-[1.01] transition-all duration-300" />
+        <div className="relative bg-white/5 backdrop-blur-sm rounded-xl overflow-hidden border border-white/10 shadow-2xl">
+          <iframe
+            src={`${pdfUrl}?view=FitH`}
+            width={width}
+            height={height}
+            className="w-full min-h-[500px] sm:min-h-[600px] rounded-lg border-0"
+            title="PDF Viewer"
+            loading="lazy"
+            style={{
+              WebkitOverflowScrolling: 'touch',
+              touchAction: 'pan-y pinch-zoom',
+              scrollbarWidth: 'thin',
+              scrollbarColor: '#4CAF50 #1a1a1a'
+            }}
+          />
+        </div>
+      </div>
+      <div className="mt-6 text-center">
         <a
           href={pdfUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center px-4 py-2 rounded-lg text-white text-sm font-medium transition-all duration-300
-                    bg-linear-to-r from-[#4CAF50] via-[#8BC34A] to-[#CDDC39] hover:opacity-90
-                    shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+          className="inline-flex items-center px-6 py-3 rounded-xl text-white text-base font-medium transition-all duration-300
+                    bg-linear-to-r from-green-600 to-emerald-500 hover:from-green-700 hover:to-emerald-600
+                    shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 active:translate-y-0
+                    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
         >
           <svg
-            className="w-4 h-4 mr-1"
+            className="w-5 h-5 mr-2"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -159,10 +172,10 @@ export default function PdfViewer({
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth={2}
-              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4l2 2h4l2-2h4a2 2 0 012 2v12a2 2 0 01-2 2h-2.5M15 12a3 3 0 11-6 0 3 3 0 016 0z"
             />
           </svg>
-          Open in New Tab
+          <span>View Full Screen</span>
         </a>
       </div>
     </div>
