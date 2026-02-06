@@ -66,14 +66,15 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="w-full lg:w-1/2 flex justify-center lg:justify-center ">
-              <div className="hero-image-container relative w-full rounded-3xl max-w-2xl h-[300px] sm:h-[350px] lg:h-[600px] bg-linear-to-br from-green-500/20 to-transparent overflow-hidden">
+            <div className="w-full flex justify-center lg:justify-center ">
+              <div className="hero-image-container relative w-full rounded-3xl max-w-2xl aspect-23/33 bg-linear-to-br from-green-500/20 to-transparent overflow-hidden">
                 <div className="absolute inset-0 bg-cover bg-center mix-blend-overlay opacity-30"></div>
-                <div className="absolute inset-0 sm:h-[600px] lg:h-[600px] bg-linear-to-t from-black/80 via-transparent to-transparent">
+                <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent">
                   <Image
                     src="/placeholder.png"
                     alt=""
                     fill
+                    quality={100}
                     className="object-cover"
                   />
                 </div>
