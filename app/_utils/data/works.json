@@ -1,193 +1,146 @@
 {
   "works": [
     {
-      "title": "Bakery landing page",
+      "title": "Bakery Landing Page",
+      "description": "A modern, high-performance landing page for a bakery, focusing on appetizing visual storytelling and a seamless responsive layout to enhance brand identity.",
       "year": "2025",
       "role": "Front-end Developer",
-      "tags": ["HTML5", "CSS3", "Responsive Design", "UI/UX"],
+      "tags": ["HTML5", "CSS3", "Tailwind CSS", "Responsive Design"],
       "image": "/_assets/images/Bakery.png",
       "linkDemo": "https://moaaz-i.github.io/Engage_Bakery",
       "linkCode": "https://github.com/Moaaz-i/Engage_Bakery"
     },
     {
-      "title": "DevFolio landing page",
+      "title": "DevFolio Portfolio",
+      "description": "A professional developer portfolio template that balances minimalist aesthetics with powerful performance and SEO-friendly semantic structure.",
       "year": "2025",
       "role": "Front-end Developer",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "Responsive Design",
-        "Semantic HTML"
-      ],
+      "tags": ["HTML5", "CSS3", "JavaScript", "Tailwind CSS"],
       "image": "/_assets/images/DevFolio.png",
       "linkDemo": "https://moaaz-i.github.io/DevFolio",
       "linkCode": "https://github.com/Moaaz-i/DevFolio"
     },
     {
-      "title": "Daniels landing page",
+      "title": "Daniels Agency",
+      "description": "A classic minimalist agency page focusing on smooth transitions, typography-driven design, and clean visual hierarchy.",
       "year": "2025",
       "role": "Front-end Developer",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "Responsive Design",
-        "Minimalist"
-      ],
+      "tags": ["HTML5", "Tailwind CSS", "JavaScript", "Minimalist"],
       "image": "/_assets/images/Daniels.png",
       "linkDemo": "https://moaaz-i.github.io/Exam",
       "linkCode": "https://github.com/Moaaz-i/Exam"
     },
     {
-      "title": "Fokir landing page",
+      "title": "Fokir Creative Portfolio",
+      "description": "An imaginative portfolio site featuring advanced interactive elements and a unique layout that breaks traditional web grids for a creative edge.",
       "year": "2025",
       "role": "Front-end Developer",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "Responsive Design",
-        "Interactive Elements"
-      ],
+      "tags": ["HTML5", "CSS3", "JavaScript", "Interactive Elements"],
       "image": "/_assets/images/Fokir.png",
       "linkDemo": "https://moaaz-i.github.io/Fokir",
       "linkCode": "https://github.com/Moaaz-i/Fokir"
     },
     {
-      "title": "Login System",
+      "title": "Smart Login System",
+      "description": "A robust authentication interface featuring real-time data validation, secure handling, and a polished user experience using modern scripting logic.",
       "year": "2025",
       "role": "Front-end Developer",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "Form Validation",
-        "Authentication"
-      ],
+      "tags": ["TypeScript", "JavaScript", "Form Validation", "Authentication"],
       "image": "/_assets/images/LoginSystem.jpeg",
       "linkDemo": "https://moaaz-i.github.io/Login-System",
       "linkCode": "https://github.com/Moaaz-i/Login-System"
     },
     {
-      "title": "Bookmark landing page",
+      "title": "Bookmark Manager",
+      "description": "A productivity-focused web tool for organizing links, designed with a clean interface and intuitive navigation to prioritize accessibility.",
       "year": "2025",
       "role": "Front-end Developer",
-      "tags": ["HTML5", "CSS3", "JavaScript", "Responsive Design", "UI/UX"],
+      "tags": ["React", "Tailwind CSS", "JavaScript", "UI/UX"],
       "image": "/_assets/images/Bookmark.jpeg",
       "linkDemo": "https://moaaz-i.github.io/Bookmark",
       "linkCode": "https://github.com/Moaaz-i/Bookmark"
     },
     {
-      "title": "Crud System landing page",
+      "title": "Product CRUD System",
+      "description": "A full-featured data management application (Create, Read, Update, Delete) showcasing advanced logic, local storage integration, and efficient state handling.",
       "year": "2025",
       "role": "Front-end Developer",
       "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "Responsive Design",
-        "CRUD Operations"
+        "TypeScript",
+        "CRUD Operations",
+        "Local Storage",
+        "Tailwind CSS"
       ],
       "image": "/_assets/images/CrudSystem.jpeg",
       "linkDemo": "https://moaaz-i.github.io/crud_system",
       "linkCode": "https://github.com/Moaaz-i/crud_system"
     },
     {
-      "title": "Mealify Landing Page",
+      "title": "Mealify Restaurant",
+      "description": "An interactive restaurant UX featuring modern UI patterns, smooth navigation, and a dynamic menu browsing system optimized for conversions.",
       "year": "2025",
       "role": "Front-end Developer",
-      "tags": ["HTML5", "CSS3", "JavaScript", "Responsive Design", "UI/UX"],
+      "tags": ["HTML5", "CSS3", "JavaScript", "Modern UI"],
       "image": "/_assets/images/Mealify.png",
       "linkDemo": "https://moaaz-i.github.io/Mealify",
       "linkCode": "https://github.com/Moaaz-i/Mealify"
     },
     {
-      "title": "Weather forecast page for three days or less",
+      "title": "Dynamic Weather App",
+      "description": "A real-time weather dashboard fetching data from external APIs to provide accurate forecasts with dynamic UI changes based on atmospheric conditions.",
       "year": "2025",
       "role": "Front-end Developer",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "API Integration",
-        "Responsive Design"
-      ],
+      "tags": ["React", "API Integration", "Tailwind CSS", "TypeScript"],
       "image": "/_assets/images/Weather.jpeg",
       "linkDemo": "https://moaaz-i.github.io/Weather/",
       "linkCode": "https://github.com/moaaz-i/Weather"
     },
     {
       "title": "CSS Grid Masterclass",
+      "description": "A technical showcase of advanced layout engineering using CSS Grid to build complex, fully responsive web architectures with surgical precision.",
       "year": "2025",
       "role": "Front-end Developer",
-      "tags": [
-        "CSS Grid",
-        "Responsive Design",
-        "Modern Layouts",
-        "UI/UX",
-        "Interactive Examples"
-      ],
+      "tags": ["CSS Grid", "Tailwind CSS", "Advanced Layouts"],
       "image": "/_assets/images/GridSystem.jpeg",
       "linkDemo": "https://moaaz-i.github.io/Grid_masterclass/",
       "linkCode": "https://github.com/moaaz-i/Grid_masterclass"
     },
     {
-      "title": "Inspirational Quote Generator",
+      "title": "Quote Generator",
+      "description": "An interactive app generating inspirational quotes via API calls, featuring instant social sharing capabilities and a vibrant UI.",
       "year": "2025",
       "role": "Front-end Developer",
-      "tags": [
-        "JavaScript",
-        "API Integration",
-        "Responsive Design",
-        "Social Sharing",
-        "UI/UX"
-      ],
+      "tags": ["JavaScript", "Fetch API", "Tailwind CSS", "Social Sharing"],
       "image": "/_assets/images/Quote.jpeg",
       "linkDemo": "https://moaaz-i.github.io/Random-Quote-Generator/",
       "linkCode": "https://github.com/moaaz-i/Random-Quote-Generator"
     },
     {
       "title": "Foodie's Paradise",
+      "description": "A recipe search engine that allows users to explore thousands of meals with detailed ingredient lists and cooking instructions through API consumption.",
       "year": "2025",
       "role": "Front-end Developer",
-      "tags": [
-        "JavaScript",
-        "API Integration",
-        "Responsive Design",
-        "Recipe Search",
-        "UI/UX"
-      ],
+      "tags": ["React", "API Integration", "TypeScript", "Tailwind CSS"],
       "image": "/_assets/images/Foods.jpeg",
       "linkDemo": "https://moaaz-i.github.io/sample-api/",
       "linkCode": "https://github.com/moaaz-i/sample-api"
     },
     {
-      "title": "LinkedPost - Social Media Platform",
+      "title": "LinkedPost Social Platform",
+      "description": "A sophisticated social media mini-platform leveraging Next.js and React for ultra-fast navigation and real-time content updates.",
       "year": "2025",
-      "role": "Front-end Developer",
-      "tags": [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "Responsive Design",
-        "Real-time Updates"
-      ],
+      "role": "Full-stack Developer",
+      "tags": ["Next.js", "React", "TypeScript", "State Management"],
       "image": "/_assets/images/LinkedPost.png",
       "linkDemo": "https://social-app-two-tau.vercel.app",
       "linkCode": "https://github.com/Moaaz-i/LinkedPost"
     },
     {
-      "title": "Needful - E-commerce Platform",
+      "title": "Needful E-commerce",
+      "description": "A high-end e-commerce solution focused on smooth product discovery, cart management, and a robust checkout flow built with modern frameworks.",
       "year": "2025",
-      "role": "Front-end Developer",
-      "tags": [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "E-commerce",
-        "Responsive Design"
-      ],
+      "role": "Full-stack Developer",
+      "tags": ["Next.js", "React", "TypeScript", "E-commerce Logic"],
       "image": "/_assets/images/Needful.png",
       "linkDemo": "https://needfull.vercel.app/",
       "linkCode": "https://github.com/Moaaz-i/needful"

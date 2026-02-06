@@ -97,7 +97,7 @@ export default function Home() {
           </div>
 
           <div className="mt-7 flex items-center gap-20 flex-col">
-            {data.works.map((work, index) => (
+            {[...data.works].reverse().map((work, index) => (
               <Card key={index} {...work} />
             ))}
           </div>
